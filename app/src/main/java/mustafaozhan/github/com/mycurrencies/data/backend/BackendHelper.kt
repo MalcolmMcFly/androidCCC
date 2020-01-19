@@ -19,7 +19,7 @@ class BackendHelper @Inject
 constructor() : BaseApiHelper() {
 
     companion object {
-        const val SIMPLE_YYYY_MM_DD = "yyyy-MM-dd'T'HH:mm:ss"
+        const val SIMPLE_YYYY_MM_DD = "HH:mm:ss dd.MM.yyyy"
     }
 
     override val gSon: Gson
